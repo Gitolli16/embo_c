@@ -23,7 +23,7 @@ float valoisuus(uint16_t rekisteri);
 
 float valoisuus(uint16_t rekisteri){
 
-    uint16_t lux = 0;
+    float lux = 0;
     uint16_t fract_maski = 0xF000;
     uint16_t expo_bits = 0;
     expo_bits = rekisteri >> 12;
