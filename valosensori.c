@@ -4,11 +4,11 @@
 
 float valoisuus(uint16_t rekisteri);
 
-int main() {
+/*int main() {
     uint16_t rekisteri_1 = 0b0110110000110101;
     printf("%.2f", valoisuus(rekisteri_1));
     return 0;
-}
+}*/
 
 /*float valoisuus(uint16_t rekisteri){
     uint16_t lux = 0;

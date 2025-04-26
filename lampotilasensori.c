@@ -4,11 +4,11 @@
 
 float lampotila(uint16_t rekisteri);
 
-int main() {
+/*int main() {
     uint16_t rekisteri_bitit = 0b0011001000000000;
     printf("%.2f", lampotila(rekisteri_bitit));
     return 0;
-}
+}*/
 
 float lampotila(uint16_t rekisteri) {
     uint8_t asteet = 0;
