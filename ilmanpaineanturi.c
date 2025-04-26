@@ -4,7 +4,7 @@
 
 uint32_t ilmanpaine(uint8_t xlsb, uint8_t lsb, uint8_t msb);
 
-int main() {
+/*int main() {
 
     uint8_t xlsb=-34;
     uint8_t lsb=-68;
@@ -12,7 +12,7 @@ int main() {
     
     printf("%u", ilmanpaine(xlsb, lsb, msb));
     return 0;
-}
+}*/
 
 uint32_t ilmanpaine(uint8_t xlsb, uint8_t lsb, uint8_t msb){
 
